@@ -1,0 +1,16 @@
+{
+  "name": "@piphi/widget-airthings-air-quality",
+  "version": "0.1.7",
+  "private": true,
+  "type": "module",
+  "description": "PiPhi dashboard widget for Airthings air-quality integrations.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate": "npm test && python3 scripts/build_package.py --check"
+  },
+  "devDependencies": {
+    "piphi-network-widget-sdk": "0.6.1"
+  },
+  "engines": {"node": ">=22"},
+  "license": "MIT"
+}
